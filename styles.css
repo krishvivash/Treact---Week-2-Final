@@ -17,6 +17,10 @@ ul{
     margin: 0 auto;
 }
 
+.purple{
+    color: rgb(100 21 255);
+}
+
 
 /*
 
@@ -34,6 +38,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 
 .logo__wrapper{
@@ -59,7 +64,7 @@ nav{
 
 .nav__link{
     text-decoration: none;
-    margin: 0px 24px;
+    margin: 0px 1.5rem;
     padding-bottom: 4px;
     color: #243e63;
     font-size: 14px
@@ -84,5 +89,72 @@ nav{
 
 .nav__main--hover:hover{
     background: rgb(80,17,204);    
+}
+
+
+/*
+
+HEADER
+
+*/
+
+
+.header__title{
+    font-size: 36px;
+    color: #1A202C;
+}
+
+.header__para{
+    color: #243E63;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.header__input{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 12rem;
+    padding-left: 2rem;
+    border-radius: 9999px;
+    border: solid #dde4ee;
+    border-width: 2px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header__button{
+    r: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    width: 12%;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.header__customer{
+    font-size: 12px;
+    color: #A0AEC0;
+    text-transform: uppercase;
+}
+
+.trusted__img{
+    width: 40%;
+    opacity: 0.5;
+    padding-right: 4rem;
+}
+
+.header__img{
+    margin-top: 1rem;
+    width: 100%;
+    
 }
 
